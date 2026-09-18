@@ -12,31 +12,31 @@
     <ol>
       <li>Where should you use constants, and where should you use variables? Can they all be constants?</li>
       <p>
-				Replace this with you answer
+				Man bør bruke constanter når en verdi ikke skal endres. Man kan bruke variabler som "let" hvis man skal endre en verdi senere. Alt kan ikke være konstanter dersom verdien skal endre seg.
 			</p>
       <li>How do parentheses affect the arithmetic outcome of an expression?</li>
       <p>
-				Replace this with you answer
+				Parantesene bestemmer hva som skal regnes ut først. Uten paranteser skal Javascript følge vanlig regnerekkefølge: gange og dele før pluss og minus.
 			</p>
       <li>How do we limit floating-point numbers to a given number of decimals?</li>
       <p>
-				Replace this with you answer
+				Ved å bruke tofixed() kan man vise et bestemt antall desimaler. Det man gjør da er at man gir teksten en "string".
 			</p>
       <li>How can we compare two floating-point values to see if they are equal (is 12.199999 the same as 12.2)?</li>
       <p>
-				Replace this with you answer
+				Man kan bruke ===, men det kan gjøre at det blir unøyaktigheter i datamaskinen. Istedenfor kan man se om forskjellen er veldig liten ved hjelp av console.log(Math.abs). Dette blir true fordi tallene er såpass nærme hverandre.
 			</p>
       <li>What do comparison operators return, and how can we check if they are FALSE or TRUE?</li>
       <p>
-				Replace this with you answer
+				Operatorer som >, <, >=, === og !== returnerer boolske verdier: enten true eller false. For å sjekke om de er true eller false kan man putte de inn i en if-setning.
 			</p>
       <li>How does the Math.random() function work, and what can it be used for?</li>
       <p>
-				Replace this with you answer
+				Math.random() lager et tilfeldig desimaltall fra 0 (inkludert) til 1 (ikke inkludert). Den kan brukes til spill, tilfeldige valg, simuleringer eller å generere tilfeldige tall.
 			</p>
       <li>What is modulus (%), and when do we need this operator in mathematical operations?</li>
       <p>
-				Replace this with you answer
+				Modulus (%) er en operator som gir resten etter at man har delt et tall på et annet. Vi trenger denne operatøren når vi trenger å finne det som er igjen: dager etter hele uker, om et tall er oddetall eller partall eller om noe skal skje hver gang "restallet" forekommer.
 			</p>
     </ol>
 		<script type="module" src="./task_2-2.mjs" defer></script>
