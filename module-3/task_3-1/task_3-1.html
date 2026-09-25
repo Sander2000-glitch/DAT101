@@ -11,12 +11,13 @@
     </div>
     <ol>
       <li>Discuss the behavior of part 1, What happens when the wake-up time is not 7 and what happens when it is exactly 7?</li>
-      <p>[Replace this with you answer]</p>
+      <p>Når det kommer til oppgaven med bare "if" så skjer det ingenting hvis våkentiden ikke er 7 fordi betingelsen er false. Når den er akkurat 7 kjører koden i if - blokken: du kan ta bussen.</p>
       <li>Same as question #1. How ever the answer should now be different. Discuss the behavior of part 2, What happens when the wake-up time is not 7 and what happens when it is exactly 7?</li>
-      <p>[Replace this with you answer]</p>
+      <p>I oppgaven med "if" og "else" så må man ta bilen hvis våkentiden ikke er 7. Ved akkurat 7 tar man bussen.</p>
       <li>Discuss the behavior of part 3, what happens when wake time is less than 7 or greater than 8?</li>
-      <p>[Replace this with you answer]</p>
+      <p>I oppgaven med buss ved 7 og tog ved 8, vil alle andre tider gå til "else". Hvis du våkner før 7 eller senere enn 8, må du ta bilen.</p>
       <li>Discuss the behavior for part 4, what happens if the number is exactly 0, is zero positive or negative?</li>
+      <p>Matematisk er 0 verken positivt eller negativt. Hvis koden bare har if (number > 0) og else, vil 0 havne i else og bli skrevet som "Negative", men det er ikke matematisk korrekt. Derfor kan vi legge til else if (number < 0) og en egen else for null.</p>
     </ol>
     <script type="module" src="./task_3-1.mjs" defer></script>
   </body>
